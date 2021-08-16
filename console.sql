@@ -145,7 +145,7 @@ delete application
 from application
          join client c on c.idClient = application.Client_idClient
          join department d on d.idDepartment = c.Department_idDepartment
-where FirstName like '_[aioeyu]%';
+where LastName like '^.[aioeyu]%';
 
 
 # 21.Знайти львівські відділення, які видали кредитів на загальну суму більше ніж 5000
